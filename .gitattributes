@@ -19,3 +19,6 @@
 # Ensure documentation stays as standard text
 *.txt        text
 *.md         text
+
+#Disable language detection
+*.html linguist-detectable=false
