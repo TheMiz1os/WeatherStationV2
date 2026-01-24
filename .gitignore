@@ -1,0 +1,23 @@
+# --- KiCad Phase/Backup Files ---
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-save.kicad_pcb
+*-save.kicad_sch
+*_autosave-*
+*.tmp
+fp-info-cache
+
+# --- Local User Settings (The "Noise") ---
+# These store window positions and zoom levels
+*.kicad_prl
+
+# --- Manufacturing Files (Optional) ---
+# Usually better to generate these fresh, but keep if you want
+# Gerbers/
+# *.gbr
+# *.drl
+
+# --- System/OS junk ---
+Thumbs.db
+.DS_Store

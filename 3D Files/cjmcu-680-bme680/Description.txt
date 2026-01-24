@@ -1,0 +1,36 @@
+CJMCU-680, BME680 Ambient Temperature, Relative Humidity, Barometric Pressure, and Gas VOC Sensor
+
+Link to CAD models:
+https://grabcad.com/library/cjmcu-680-bme680-ambient-temperature-relative-humidity-barometric-pressure-and-gas-voc-sensor-1
+
+Contains 4 sensors in 1 module.
+
+Temperature and humidity can be used for weather monitoring, process control, etc.
+Barometric pressure can be used for altitude detection for i.e. UAV, drones, hiking, etc.
+Gas VOC sensor can be used for i.e. indoor air quality monitoring, or pollution detection, etc.
+
+https://www.bosch-sensortec.com/products/environmental-sensors/gas-sensors/bme680/
+
+Sensor specs from site:
+Gas sensor			
+Response time (τ 33-63%)	< 1 s (for new sensors)
+Sensor-to-sensor deviation	+/- 15% +/- 15
+Power consumption		< 0.1 mA in ultra-low power mode
+Output data processing		direct output of IAQ: Index for Air Quality
+
+Humidity sensor
+Response time (τ0-63%)		8 s
+Accuracy tolerance		± 3 % relative humidity
+Hysteresis			≤ 1.5 % relative humidity
+
+Pressure sensor
+RMS Noise			0.12 Pa (equiv. to 1.7 cm)
+Sensitivity Error		± 0.25 % (equiv. to 1 m at 400 m height change)
+Temperature coefficient offset	±1.3 Pa/K (equiv. to ±10.9 cm at 1°C temperature change)
+
+Vendor links:
+https://www.aliexpress.us/item/2251832661355638.html
+https://www.aliexpress.us/item/3256801520870807.html
+https://www.amazon.com/Teyleten-Robot-Temperature-CJMCU-680-Development/dp/B0BZP7K17K
+
+#CAD #SolidWorks #3dmodel #sensor #voc #gas #pressure #barometric #relativehumidity #temperature #bme680

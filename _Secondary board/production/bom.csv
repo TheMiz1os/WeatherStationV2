@@ -1,0 +1,15 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C2",1206,2,10uF,
+"C3, C4, C5, C6",1206,4,100nF,
+"H1, H2",MountingHole_2.2mm_M2_DIN965_Pad,2,MountingHole_M3_3.2mm_Pad,
+IC1,SOIC127P600X175-8N,1,AS5600-ASOT,
+J2,JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical,1,Anemometer,
+J3,PinHeader_1x05_P2.54mm_Vertical,1,PINHD_1x5_Male,
+J5,RJ45_Amphenol_RJHSE538X,1,SENSORS,
+R1,1206,1,150R,
+"R12, R13",1206,2,4.7K,
+R2,1206,1,70R,
+TP1,TestPoint_Pad_D2.0mm,1,TestPoint,
+U1,Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering,1,BME680,
+U2,XDCR_VEML7700-TR,1,VEML7700-TR,
+U3,SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR,1,HT7533,C14289

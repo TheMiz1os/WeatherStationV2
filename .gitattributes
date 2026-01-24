@@ -1,0 +1,21 @@
+# Handle line endings automatically for text files
+* text=auto
+
+# Explicitly set KiCad files to LF (best for cross-platform)
+*.kicad_sch  text eol=lf
+*.kicad_pcb  text eol=lf
+*.kicad_pro  text eol=lf
+*.kicad_prl  text eol=lf
+*.kicad_mod  text eol=lf
+*.kicad_sym  text eol=lf
+
+# Treat 3D models and binaries as binary (prevents ANY line ending changes)
+*.step       binary
+*.stp        binary
+*.stl        binary
+*.png        binary
+*.jpg        binary
+
+# Ensure documentation stays as standard text
+*.txt        text
+*.md         text
