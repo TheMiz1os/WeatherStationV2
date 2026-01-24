@@ -20,5 +20,11 @@
 *.txt        text
 *.md         text
 
-#Disable language detection
-*.html linguist-detectable=false
+# Forza GitHub a ignorare i file che creano confusione nelle statistiche
+*.step linguist-vendored
+*.stp linguist-vendored
+*.txt linguist-documentation
+
+# Se GitHub non riconosce i file KiCad, puoi provare a forzarli (opzionale)
+*.kicad_sch linguist-detectable=true
+*.kicad_pcb linguist-detectable=true
