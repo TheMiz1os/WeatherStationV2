@@ -2759,16 +2759,16 @@
 		(uuid "3a035443-27c6-48f4-ae91-93dd8a4dcff1")
 	)
 	(junction
-		(at 86.36 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4add3e19-d07c-466f-bdd1-c89ae2a91ab4")
-	)
-	(junction
 		(at 93.98 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f9200e3-180c-43df-9e0d-baef036d2a9a")
+	)
+	(junction
+		(at 81.28 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a4d09fe-21bf-4917-bff6-d6c4f0b2cd7e")
 	)
 	(junction
 		(at 82.55 53.34)
@@ -2913,16 +2913,6 @@
 			(type default)
 		)
 		(uuid "0df26784-2553-4900-9024-17f210dd3e97")
-	)
-	(wire
-		(pts
-			(xy 81.28 179.07) (xy 86.36 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e6ef29e-c596-4b70-bd78-44faacb1de0b")
 	)
 	(wire
 		(pts
@@ -3526,6 +3516,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 179.07) (xy 92.71 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2a31628-50c2-4cfe-82e9-6fea61945753")
+	)
+	(wire
+		(pts
 			(xy 222.25 124.46) (xy 226.06 124.46)
 		)
 		(stroke
@@ -3563,6 +3563,16 @@
 			(type default)
 		)
 		(uuid "d57abfdc-ea16-45d6-b848-2d4a4669bd46")
+	)
+	(wire
+		(pts
+			(xy 69.85 179.07) (xy 81.28 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7f576a5-2f99-44fc-a752-d786766bd55f")
 	)
 	(wire
 		(pts
@@ -3653,16 +3663,6 @@
 			(type default)
 		)
 		(uuid "fe9300b5-86cb-459b-b453-9c56afae0c31")
-	)
-	(wire
-		(pts
-			(xy 86.36 179.07) (xy 92.71 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe975315-a8ad-4777-8b6c-2549979ace78")
 	)
 	(label "SDA"
 		(at 259.08 121.92 180)
@@ -4909,7 +4909,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 179.07 0)
+		(at 81.28 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4917,7 +4917,7 @@
 		(dnp no)
 		(uuid "97ed6b2c-a5f1-432f-9925-b05654e8d7b9")
 		(property "Reference" "#PWR022"
-			(at 86.36 185.42 0)
+			(at 81.28 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4926,7 +4926,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 182.88 0)
+			(at 81.28 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4934,7 +4934,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 179.07 0)
+			(at 81.28 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4943,7 +4943,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 179.07 0)
+			(at 81.28 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4952,7 +4952,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 179.07 0)
+			(at 81.28 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5584,6 +5584,74 @@
 			(project "Secondary Board"
 				(path "/148b448d-b722-497b-94de-5b72fb78c9d0"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Mechanical:MountingHole_M3_3.2mm_Pad")
+		(at 69.85 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4dc9851-c63e-4038-9a8f-1fdb489ee5ed")
+		(property "Reference" "H3"
+			(at 73.66 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_M3_3.2mm_Pad"
+			(at 73.66 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 69.85 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.2mm Diameter Mounting Hole Pad (M3)"
+			(at 69.85 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1406d0e-f696-4fef-9249-bc30e7de0a96")
+		)
+		(instances
+			(project "Secondary Board"
+				(path "/148b448d-b722-497b-94de-5b72fb78c9d0"
+					(reference "H3")
 					(unit 1)
 				)
 			)
