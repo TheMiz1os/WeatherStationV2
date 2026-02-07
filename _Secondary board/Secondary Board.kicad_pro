@@ -564,7 +564,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Secondary Board.step",
       "svg": "",
       "vrml": ""
     },
