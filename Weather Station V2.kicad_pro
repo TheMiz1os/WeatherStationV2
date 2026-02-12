@@ -60,22 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "hole_clearance|102867500|117870000|b6e33a13-2cdc-4890-a9a3-6886864f02ea|058873c0-cc8a-4cd9-9679-2724160f9802",
-          ""
-        ],
-        [
-          "hole_clearance|102867500|117870000|b6e33a13-2cdc-4890-a9a3-6886864f02ea|29174d75-e365-43a5-8f1f-4a35a99b547a",
-          ""
-        ],
-        [
-          "hole_clearance|108967500|117870000|9213f7fb-f774-4766-a11e-5fcdd0f1c7d7|7bed3dc1-ca42-43bf-a8e5-afd8bf3262e4",
-          ""
-        ],
-        [
-          "hole_clearance|108967500|117870000|9213f7fb-f774-4766-a11e-5fcdd0f1c7d7|be004886-3976-461c-a9bf-d303bb455293",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|174972500|102850000|42645718-bbae-4793-8afe-f079f0497ae3|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -130,7 +114,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "warning",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
@@ -579,6 +563,10 @@
       {
         "netclass": "Power",
         "pattern": "+5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "5V - Breakout"
       }
     ]
   },
