@@ -2635,6 +2635,137 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_JLCPCB-Manufacturing:Mousebites, Cosmetic, 3mm"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "M"
+				(at 7.366 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:MouseBites, Cosmetic, JLCPCB, 1.6mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn.sparkfun.com/assets/home_page_posts/4/4/0/0/Mousebites_Whitepaper_Final.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Breakaway Mousebites based on Sparkfun's recomended parameters tweaked for PCM_JLCPCB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Mousebites, Cosmetic, 3mm_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.715 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_SL_Capacitors:10uF_50V"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5861,10 +5992,6 @@
 		(uuid "fcf53063-99b7-48f9-b71e-0d7537a78f41")
 	)
 	(no_connect
-		(at 114.3 72.39)
-		(uuid "10c672ac-efbf-4549-81ba-800b22099bb6")
-	)
-	(no_connect
 		(at 114.3 39.37)
 		(uuid "19a5c7e5-0ebd-40e3-ad5f-14f642a90278")
 	)
@@ -5891,10 +6018,6 @@
 	(no_connect
 		(at 114.3 59.69)
 		(uuid "64692745-82f6-4d64-9e18-cd224f26b92d")
-	)
-	(no_connect
-		(at 114.3 80.01)
-		(uuid "75de77fa-79b9-407a-9794-8c2e1b600f0b")
 	)
 	(no_connect
 		(at 114.3 64.77)
@@ -7330,6 +7453,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 80.01) (xy 114.3 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da914085-6b88-4e6c-a36f-ac27f821192e")
+	)
+	(wire
+		(pts
 			(xy 248.92 129.54) (xy 257.81 129.54)
 		)
 		(stroke
@@ -7387,6 +7520,16 @@
 			(type default)
 		)
 		(uuid "e1b6da8d-2f4e-42a7-8c4c-4bd2327e334e")
+	)
+	(wire
+		(pts
+			(xy 118.11 72.39) (xy 114.3 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e22d7acc-bb0f-4d21-8f3c-44d60a55173b")
 	)
 	(wire
 		(pts
@@ -7828,6 +7971,16 @@
 		)
 		(uuid "a82a226e-74fe-4940-a7e0-3499fb27bade")
 	)
+	(label "STDBY"
+		(at 118.11 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8cf98d0-0577-467d-b563-adbc85b5b04e")
+	)
 	(label "RXD0"
 		(at 118.11 36.83 0)
 		(effects
@@ -7937,6 +8090,16 @@
 			(justify left bottom)
 		)
 		(uuid "e18833eb-d143-420e-8671-4611c4928682")
+	)
+	(label "CHRG"
+		(at 118.11 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8b25656-2bdd-47e8-854e-b496d503d787")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -9437,6 +9600,68 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_JLCPCB-Manufacturing:Mousebites, Cosmetic, 3mm")
+		(at 124.46 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51fead07-7ca7-4374-86a8-f74de0356896")
+		(property "Reference" "M2"
+			(at 127.3175 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 127.3175 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:MouseBites, Cosmetic, JLCPCB, 1.6mm"
+			(at 124.46 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/home_page_posts/4/4/0/0/Mousebites_Whitepaper_Final.pdf"
+			(at 124.46 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Breakaway Mousebites based on Sparkfun's recomended parameters tweaked for PCM_JLCPCB"
+			(at 124.46 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Weather Station V2"
+				(path "/817e54af-ab8f-4cfe-9b63-ceac8d6d2a44"
+					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TPD3S014DBVR:TPD3S014DBVR")
 		(at 143.51 121.92 180)
 		(unit 1)
@@ -10054,6 +10279,68 @@
 			(project "Weather Station V2"
 				(path "/817e54af-ab8f-4cfe-9b63-ceac8d6d2a44"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Manufacturing:Mousebites, Cosmetic, 3mm")
+		(at 137.16 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b033619-91ca-44f3-bbd4-95df56b47aa0")
+		(property "Reference" "M3"
+			(at 140.0175 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 140.0175 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:MouseBites, Cosmetic, JLCPCB, 1.6mm"
+			(at 137.16 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/home_page_posts/4/4/0/0/Mousebites_Whitepaper_Final.pdf"
+			(at 137.16 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Breakaway Mousebites based on Sparkfun's recomended parameters tweaked for PCM_JLCPCB"
+			(at 137.16 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Weather Station V2"
+				(path "/817e54af-ab8f-4cfe-9b63-ceac8d6d2a44"
+					(reference "M3")
 					(unit 1)
 				)
 			)
@@ -10913,6 +11200,68 @@
 			(project "Weather Station V2"
 				(path "/817e54af-ab8f-4cfe-9b63-ceac8d6d2a44"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Manufacturing:Mousebites, Cosmetic, 3mm")
+		(at 111.76 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d0b0131-ac98-4395-a163-c7301afcd34d")
+		(property "Reference" "M1"
+			(at 114.6175 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 114.6175 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:MouseBites, Cosmetic, JLCPCB, 1.6mm"
+			(at 111.76 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/home_page_posts/4/4/0/0/Mousebites_Whitepaper_Final.pdf"
+			(at 111.76 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Breakaway Mousebites based on Sparkfun's recomended parameters tweaked for PCM_JLCPCB"
+			(at 111.76 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/817e54af-ab8f-4cfe-9b63-ceac8d6d2a44"
+					(reference "M1")
 					(unit 1)
 				)
 			)
@@ -11961,6 +12310,68 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_JLCPCB-Manufacturing:Mousebites, Cosmetic, 3mm")
+		(at 163.83 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c68a9ef5-131a-4216-9b14-bf9292e3d08d")
+		(property "Reference" "M5"
+			(at 166.6875 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 166.6875 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:MouseBites, Cosmetic, JLCPCB, 1.6mm"
+			(at 163.83 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/home_page_posts/4/4/0/0/Mousebites_Whitepaper_Final.pdf"
+			(at 163.83 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Breakaway Mousebites based on Sparkfun's recomended parameters tweaked for PCM_JLCPCB"
+			(at 163.83 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Weather Station V2"
+				(path "/817e54af-ab8f-4cfe-9b63-ceac8d6d2a44"
+					(reference "M5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 238.76 60.96 0)
 		(unit 1)
@@ -12154,6 +12565,68 @@
 			(project "Weather Station V2"
 				(path "/817e54af-ab8f-4cfe-9b63-ceac8d6d2a44"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Manufacturing:Mousebites, Cosmetic, 3mm")
+		(at 149.86 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ceef7104-70ec-47e8-9670-6e6e8a65c323")
+		(property "Reference" "M4"
+			(at 152.7175 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 152.7175 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:MouseBites, Cosmetic, JLCPCB, 1.6mm"
+			(at 149.86 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/home_page_posts/4/4/0/0/Mousebites_Whitepaper_Final.pdf"
+			(at 149.86 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Breakaway Mousebites based on Sparkfun's recomended parameters tweaked for PCM_JLCPCB"
+			(at 149.86 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Weather Station V2"
+				(path "/817e54af-ab8f-4cfe-9b63-ceac8d6d2a44"
+					(reference "M4")
 					(unit 1)
 				)
 			)

@@ -58,16 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|174972500|102850000|42645718-bbae-4793-8afe-f079f0497ae3|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "starved_thermal|175672500|105325000|33e6b8cd-0d18-4c5d-ab6b-b85b6cc66de9|b20f709b-74f4-42ca-aef7-efa1ae266b4b|F.Cu",
-          "Presente una traccia diretta"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -137,7 +128,7 @@
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
