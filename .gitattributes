@@ -1,5 +1,5 @@
 # Handle line endings automatically for text files
-* text=auto
+* text=auto eol=lf
 
 # Explicitly set KiCad files to LF (best for cross-platform)
 *.kicad_sch  text eol=lf

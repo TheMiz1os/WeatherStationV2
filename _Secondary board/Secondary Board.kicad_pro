@@ -60,15 +60,11 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_mismatch|152396646|111100000|6f2974dc-09be-4e06-87e5-975cb6e49208|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|130346646|109787500|6f2974dc-09be-4e06-87e5-975cb6e49208|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "silk_edge_clearance|131405000|117690000|a60cbadf-6afc-4daf-834f-d0f60717416d|e49893bd-2a3e-41ce-b58d-6ee012a9907b",
-          ""
-        ],
-        [
-          "silk_edge_clearance|148135000|117690000|a60cbadf-6afc-4daf-834f-d0f60717416d|99c13b4e-f749-4099-b8e5-86fa9e07ca2b",
+          "lib_footprint_mismatch|151952500|99950000|691acdd8-4441-4aa4-9d2c-17b6957f0bf4|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -568,7 +564,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Secondary Board.step",
       "svg": "",
       "vrml": ""
     },
