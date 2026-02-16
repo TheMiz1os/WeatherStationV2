@@ -7811,7 +7811,7 @@
 		)
 		(uuid "638390f1-5785-4227-9b09-6fef777482a9")
 	)
-	(label "PWR_ToSensors"
+	(label "BatteryReg"
 		(at 236.22 36.83 180)
 		(effects
 			(font

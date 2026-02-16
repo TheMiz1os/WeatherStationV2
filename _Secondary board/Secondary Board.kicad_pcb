@@ -642,6 +642,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "E:/Dati_Utente/ProgrammiHDD/KiCad/3D Models/jst-gh-1-25mm-connector-set-1.snapshot.111/JST - GH - Thru - Vertical - 1.25mm/JST - GH - Thru (V) - 5Pin - 1.25mm.stp"
+			(offset
+				(xyz 2.5 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -180)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
 		(layer "F.Cu")
