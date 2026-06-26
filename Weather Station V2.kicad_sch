@@ -2695,169 +2695,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_SL_Capacitors:10uF_50V"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "10uF_50V"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
-				(at 0.762 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0.508 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "10uF, 50V Electrolytic Capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Electrolytic Capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Capacitor_THT:CP_Radial_D5.0mm_* Capacitor_THT:CP_Radial_D4.0mm_* Capacitor_THT:CP_Radial_D6.3mm_* Capacitor_THT:CP_Radial_D7.5mm_* Capacitor_THT:CP_Radial_D8.0mm_* Capacitor_THT:CP_Radial_D10.0mm_* Capacitor_THT:CP_Radial_D14.0mm_* Capacitor_THT:CP_Radial_D16.0mm_* Capacitor_THT:CP_Radial_D18.0mm_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "10uF_50V_0_0"
-				(text "+"
-					(at -2.032 1.524 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "-"
-					(at 2.032 1.524 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "10uF_50V_0_1"
-				(rectangle
-					(start -1.016 -2.286)
-					(end -0.508 2.286)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.508 -2.286)
-					(end 1.016 2.286)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "10uF_50V_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.7)
-					(name ""
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.7)
-					(name ""
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_SL_Devices:Push_Button"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6219,12 +6056,6 @@
 		(uuid "10a7afb1-f045-4c64-9bfa-35b7b5a49fd3")
 	)
 	(junction
-		(at 269.24 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "17754b13-32a7-43c1-b3ef-30528292712d")
-	)
-	(junction
 		(at 43.18 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6307,6 +6138,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6468cfba-a9ab-4147-b661-ed6b202dd457")
+	)
+	(junction
+		(at 269.24 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69d55af4-a864-468a-b6e6-ced799a546b9")
 	)
 	(junction
 		(at 223.52 63.5)
@@ -7186,6 +7023,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 36.83) (xy 273.05 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6407d9ae-f7c8-43ef-a6b0-ea31af0e6922")
+	)
+	(wire
+		(pts
 			(xy 238.76 68.58) (xy 241.3 68.58)
 		)
 		(stroke
@@ -7263,6 +7110,16 @@
 			(type default)
 		)
 		(uuid "6d3934af-38cb-4809-9415-0a8db9d84b5a")
+	)
+	(wire
+		(pts
+			(xy 269.24 41.91) (xy 269.24 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ff27485-9b51-4097-b443-2d00c66f905b")
 	)
 	(wire
 		(pts
@@ -7933,16 +7790,6 @@
 			(type default)
 		)
 		(uuid "e00d5d88-1ab6-45f2-8607-fa0cd4891f08")
-	)
-	(wire
-		(pts
-			(xy 269.24 36.83) (xy 273.05 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1b6da8d-2f4e-42a7-8c4c-4bd2327e334e")
 	)
 	(wire
 		(pts
@@ -9982,7 +9829,7 @@
 				)
 			)
 		)
-		(property "Value" "LM1117MP-3.3"
+		(property "Value" "LDL1117S33R"
 			(at 255.27 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11885,88 +11732,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Capacitors:10uF_50V")
-		(at 269.24 40.64 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "973fe97a-e019-4691-8837-308afb65cd07")
-		(property "Reference" "C4"
-			(at 273.05 39.3699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 273.05 41.9099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
-			(at 265.43 41.402 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 41.148 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10uF, 50V Electrolytic Capacitor"
-			(at 269.24 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9ee5c1f0-5c08-4eb6-9e25-2f014fb9f028")
-		)
-		(pin "1"
-			(uuid "0cac8498-26e2-44bc-807f-0e2d3d81b307")
-		)
-		(instances
-			(project "Weather Station V2"
-				(path "/817e54af-ab8f-4cfe-9b63-ceac8d6d2a44"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 190.5 85.09 0)
 		(unit 1)
@@ -13476,6 +13241,87 @@
 			(project "Weather Station V2"
 				(path "/817e54af-ab8f-4cfe-9b63-ceac8d6d2a44"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 269.24 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c0d006d1-cf9f-4036-aeb4-cb5ad6859350")
+		(property "Reference" "C4"
+			(at 264.414 39.878 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 262.382 41.656 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 269.24 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 269.24 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87f19799-2e3b-45fa-9da4-fcb15df8cc50")
+		)
+		(pin "2"
+			(uuid "c66da94e-1e54-4923-98ac-ee614d792bdb")
+		)
+		(instances
+			(project "Weather Station V2"
+				(path "/817e54af-ab8f-4cfe-9b63-ceac8d6d2a44"
+					(reference "C4")
 					(unit 1)
 				)
 			)
