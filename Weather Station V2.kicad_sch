@@ -6304,8 +6304,16 @@
 		(uuid "98d5bf33-dd20-42cc-b833-6f23dc85f056")
 	)
 	(no_connect
+		(at 83.82 80.01)
+		(uuid "ade99a45-6680-49fb-8f32-794b44a94c08")
+	)
+	(no_connect
 		(at 114.3 41.91)
 		(uuid "b08792b0-4206-4902-a945-d04de775c79e")
+	)
+	(no_connect
+		(at 83.82 59.69)
+		(uuid "b0c96401-6810-437d-8bcb-eed22b03ada0")
 	)
 	(no_connect
 		(at 114.3 49.53)
@@ -6342,6 +6350,10 @@
 	(no_connect
 		(at 114.3 52.07)
 		(uuid "ed669abc-e21b-4c91-a120-3658b6e99821")
+	)
+	(no_connect
+		(at 83.82 74.93)
+		(uuid "f08a053a-ea4e-4fde-9249-a954a025f11f")
 	)
 	(no_connect
 		(at 114.3 62.23)
@@ -7987,7 +7999,7 @@
 		)
 		(uuid "16772296-d06c-4f60-a5b0-29be7963a1cc")
 	)
-	(label "~{SENSOR_EN}"
+	(label "SENSOR_EN"
 		(at 99.06 139.7 0)
 		(effects
 			(font
@@ -8227,7 +8239,7 @@
 		)
 		(uuid "871ae321-e1bf-46ca-87c7-81815fdececa")
 	)
-	(label "~{SENSOR_EN}"
+	(label "SENSOR_EN"
 		(at 80.01 54.61 180)
 		(effects
 			(font
@@ -15084,7 +15096,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{SENSOR_EN}" input
+		(pin "SENSOR_EN" input
 			(at 95.25 139.7 0)
 			(uuid "cecb278b-ce88-4e66-a115-76fcd08e865e")
 			(effects
