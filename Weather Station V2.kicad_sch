@@ -7,7 +7,7 @@
 	(title_block
 		(title "Weather Station V2")
 		(date "2025-12-05")
-		(rev "2.2")
+		(rev "3")
 		(company "Maurizio Gasperoni")
 	)
 	(lib_symbols
@@ -5995,6 +5995,16 @@
 		)
 		(uuid "dd6ead6f-ce1c-4463-b131-1833d856dfda")
 	)
+	(text "R2 >= 470"
+		(exclude_from_sim no)
+		(at 237.744 57.912 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "01263027-8ca1-4c86-85ce-5114519b34a5")
+	)
 	(text "PMOS!\n"
 		(exclude_from_sim no)
 		(at 193.04 35.56 0)
@@ -6200,12 +6210,6 @@
 		(uuid "9a7ca1c4-a85f-4173-9658-efe22895fc0b")
 	)
 	(junction
-		(at 229.87 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f763bd2-02f5-40c1-8c72-4bd6c427150b")
-	)
-	(junction
 		(at 44.45 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6264,6 +6268,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c523d90d-cc00-4ca4-8f29-dbc01522e6e4")
+	)
+	(junction
+		(at 229.87 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6dc11d8-abe0-4a9a-b4cd-95777cae1340")
 	)
 	(junction
 		(at 173.99 85.09)
@@ -6855,7 +6865,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 57.15) (xy 229.87 57.15)
+			(xy 274.32 50.8) (xy 229.87 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7002,6 +7012,16 @@
 			(type default)
 		)
 		(uuid "53a7e547-d095-4e74-9ddb-1e36685a56c4")
+	)
+	(wire
+		(pts
+			(xy 229.87 50.8) (xy 229.87 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55c8b577-cca6-4cbb-a96f-18d4c30b5b6f")
 	)
 	(wire
 		(pts
@@ -7585,16 +7605,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 50.8) (xy 229.87 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a87eb4a2-e439-442e-9f1d-494fa62d3a44")
-	)
-	(wire
-		(pts
 			(xy 247.65 152.4) (xy 257.81 152.4)
 		)
 		(stroke
@@ -7782,16 +7792,6 @@
 			(type default)
 		)
 		(uuid "ca2a4b4d-66bc-4527-b02b-6af01d8da249")
-	)
-	(wire
-		(pts
-			(xy 229.87 57.15) (xy 229.87 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cab24e04-82fc-4bae-a54c-c4141f470af1")
 	)
 	(wire
 		(pts
@@ -8044,7 +8044,7 @@
 		(uuid "31244f74-8804-472d-af88-5d6a35e8a1ec")
 	)
 	(label "BAT+"
-		(at 274.32 57.15 0)
+		(at 274.32 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12868,7 +12868,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "470"
 			(at 238.506 61.468 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13991,7 +13991,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5K"
+		(property "Value" "2K"
 			(at 273.05 79.248 0)
 			(show_name no)
 			(do_not_autoplace no)
