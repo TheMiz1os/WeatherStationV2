@@ -11,7 +11,7 @@
 		(company "Maurizio Gasperoni")
 	)
 	(lib_symbols
-		(symbol "Battery_Management:DW01A"
+		(symbol "SymbolsLib:DW01A"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -37,7 +37,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(property "Footprint" "FootprintsLib:SOT-23-6"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -48,7 +48,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://hmsemi.com/downfile/DW01A.PDF"
+			(property "Datasheet" "${KIPRJMOD}/Data_Sheets/DW01A.PDF"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -218,7 +218,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Battery_Management:TP4056-42-ESOP8"
+		(symbol "SymbolsLib:TP4056-42-ESOP8"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -244,7 +244,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias"
+			(property "Footprint" "FootprintsLib:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias"
 				(at 0.508 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -255,7 +255,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121619_TOPPOWER-Nanjing-Extension-Microelectronics-TP4056-42-ESOP8_C16581.pdf"
+			(property "Datasheet" "${KIPRJMOD}/Data_Sheets/lcsc_datasheet_2410121619_TOPPOWER-Nanjing-Extension-Microelectronics-TP4056-42-ESOP8_C16581.pdf"
 				(at 0 -25.4 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -478,7 +478,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x02_Socket"
+		(symbol "SymbolsLib:Conn_01x02_Socket"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -661,7 +661,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x05_Socket"
+		(symbol "SymbolsLib:Conn_01x05_Socket"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -970,7 +970,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Screw_Terminal_01x02"
+		(symbol "SymbolsLib:Screw_Terminal_01x02"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1176,7 +1176,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
+		(symbol "SymbolsLib:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1216,7 +1216,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(property "Datasheet" "${KIPRJMOD}/Data_Sheets/USB_C_Receptacle_USB2.0_16P.pdf"
 				(at 3.81 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1889,7 +1889,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Small"
+		(symbol "SymbolsLib:C_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2045,7 +2045,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
+		(symbol "SymbolsLib:LED"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2246,7 +2246,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
+		(symbol "SymbolsLib:R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2386,7 +2386,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:SS34"
+		(symbol "SymbolsLib:SS34"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2419,7 +2419,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SMA"
+			(property "Footprint" "FootprintsLib:D_SMA"
 				(at 0 -4.445 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2430,7 +2430,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+			(property "Datasheet" "${KIPRJMOD}/Data_Sheets/ss32.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2589,7 +2589,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://cdn.sparkfun.com/assets/home_page_posts/4/4/0/0/Mousebites_Whitepaper_Final.pdf"
+			(property "Datasheet" "${KIPRJMOD}/Data_Sheets/Mousebites_Whitepaper_Final.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2695,7 +2695,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_SL_Devices:Push_Button"
+		(symbol "SymbolsLib:Push_Button"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2721,7 +2721,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(property "Footprint" "FootprintsLib:SW_PUSH_6mm"
 				(at -0.127 -3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2877,7 +2877,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_SL_Mechanical:MountingHole_M3_3.2mm_Pad"
+		(symbol "SymbolsLib:MountingHole_M3_3.2mm_Pad"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2903,7 +2903,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_SL_Mechanical:MountingHole_3.2mm_Pad"
+			(property "Footprint" "FootprintsLib:MountingHole_3.2mm_Pad"
 				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2993,7 +2993,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Power_Protection:USBLC6-2SC6"
+		(symbol "SymbolsLib:USBLC6-2SC6"
 			(pin_names
 				(hide yes)
 			)
@@ -3024,7 +3024,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(property "Footprint" "FootprintsLib:SOT-23-6"
 				(at 1.27 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3456,7 +3456,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RF_Module:ESP32-S3-WROOM-1"
+		(symbol "SymbolsLib:ESP32-S3-WROOM-1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3482,7 +3482,7 @@
 					)
 				)
 			)
-			(property "Footprint" "RF_Module:ESP32-S3-WROOM-1"
+			(property "Footprint" "FootprintsLib:ESP32-S3-WROOM-1"
 				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3493,7 +3493,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
+			(property "Datasheet" "${KIPRJMOD}/Data_Sheets/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4318,7 +4318,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:LM1117MP-3.3"
+		(symbol "SymbolsLib:LM1117MP-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4345,7 +4345,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(property "Footprint" "FootprintsLib:SOT-223-3_TabPin2"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4356,7 +4356,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
+			(property "Datasheet" "${KIPRJMOD}/Data_Sheets/lm1117.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4471,7 +4471,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPDT"
+		(symbol "SymbolsLib:SW_SPDT"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -4661,7 +4661,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:AO4842"
+		(symbol "SymbolsLib:AO4842"
 			(pin_names
 				(hide yes)
 			)
@@ -4692,7 +4692,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(property "Footprint" "FootprintsLib:SOIC-8_3.9x4.9mm_P1.27mm"
 				(at 5.08 -1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4705,7 +4705,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://aosmd.com/sites/default/files/res/data_sheets/AO4842.pdf"
+			(property "Datasheet" "${KIPRJMOD}/Data_Sheets/AO4842.pdf"
 				(at 5.08 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5069,7 +5069,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:Q_Dual_PMOS_G1S2G2D2S1D1"
+		(symbol "SymbolsLib:Q_Dual_PMOS_G1S2G2D2S1D1"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -8414,7 +8414,7 @@
 		(uuid "f3427c09-9dd2-4ca1-8a48-bf2aba49934b")
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SymbolsLib:R")
 		(at 44.45 36.83 180)
 		(unit 1)
 		(body_style 1)
@@ -8446,7 +8446,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "FootprintsLib:R_1206_3216Metric"
 			(at 46.228 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -8495,7 +8495,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:AO4842")
+		(lib_id "SymbolsLib:AO4842")
 		(at 251.46 83.82 270)
 		(unit 1)
 		(body_style 1)
@@ -8525,7 +8525,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "FootprintsLib:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 249.555 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -8538,7 +8538,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://aosmd.com/sites/default/files/res/data_sheets/AO4842.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Data_Sheets/AO4842.pdf"
 			(at 247.65 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -8672,7 +8672,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "SymbolsLib:C_Small")
 		(at 245.11 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -8704,7 +8704,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "FootprintsLib:C_1206_3216Metric"
 			(at 245.11 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8753,7 +8753,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SymbolsLib:R")
 		(at 184.15 127 270)
 		(mirror x)
 		(unit 1)
@@ -8786,7 +8786,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "FootprintsLib:R_1206_3216Metric"
 			(at 184.15 128.778 90)
 			(hide yes)
 			(show_name no)
@@ -8835,7 +8835,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:AO4842")
+		(lib_id "SymbolsLib:AO4842")
 		(at 264.16 83.82 90)
 		(mirror x)
 		(unit 2)
@@ -8866,7 +8866,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "FootprintsLib:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 266.065 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -8879,7 +8879,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://aosmd.com/sites/default/files/res/data_sheets/AO4842.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Data_Sheets/AO4842.pdf"
 			(at 267.97 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9013,7 +9013,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "SymbolsLib:C_Small")
 		(at 166.37 119.38 270)
 		(mirror x)
 		(unit 1)
@@ -9046,7 +9046,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "FootprintsLib:C_1206_3216Metric"
 			(at 166.37 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9095,7 +9095,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Mechanical:MountingHole_M3_3.2mm_Pad")
+		(lib_id "SymbolsLib:MountingHole_M3_3.2mm_Pad")
 		(at 64.77 182.88 0)
 		(unit 1)
 		(body_style 1)
@@ -9128,7 +9128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SL_Mechanical:MountingHole_3.2mm_Pad"
+		(property "Footprint" "FootprintsLib:MountingHole_3.2mm_Pad"
 			(at 64.77 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -9406,7 +9406,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Devices:Push_Button")
+		(lib_id "SymbolsLib:Push_Button")
 		(at 44.45 45.72 270)
 		(unit 1)
 		(body_style 1)
@@ -9436,7 +9436,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "FootprintsLib:SW_PUSH_6mm"
 			(at 41.275 45.593 0)
 			(hide yes)
 			(show_name no)
@@ -9485,7 +9485,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
+		(lib_id "SymbolsLib:SW_SPDT")
 		(at 186.69 111.76 0)
 		(mirror x)
 		(unit 1)
@@ -9516,7 +9516,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SL_Devices:Slide_Switch_SPDT_P3mm_10x5x10mm"
+		(property "Footprint" "FootprintsLib:Slide_Switch_SPDT_P3mm_10x5x10mm"
 			(at 186.69 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9646,7 +9646,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SymbolsLib:R")
 		(at 208.28 36.83 0)
 		(unit 1)
 		(body_style 1)
@@ -9678,7 +9678,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "FootprintsLib:R_1206_3216Metric"
 			(at 206.502 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -9805,7 +9805,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Battery_Management:TP4056-42-ESOP8")
+		(lib_id "SymbolsLib:TP4056-42-ESOP8")
 		(at 190.5 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -9837,7 +9837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias"
+		(property "Footprint" "FootprintsLib:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias"
 			(at 191.008 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9848,7 +9848,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121619_TOPPOWER-Nanjing-Extension-Microelectronics-TP4056-42-ESOP8_C16581.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Data_Sheets/lcsc_datasheet_2410121619_TOPPOWER-Nanjing-Extension-Microelectronics-TP4056-42-ESOP8_C16581.pdf"
 			(at 190.5 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9907,7 +9907,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:LM1117MP-3.3")
+		(lib_id "SymbolsLib:LM1117MP-3.3")
 		(at 255.27 36.83 0)
 		(unit 1)
 		(body_style 1)
@@ -9938,7 +9938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(property "Footprint" "FootprintsLib:SOT-223-3_TabPin2"
 			(at 255.27 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9949,7 +9949,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Data_Sheets/lm1117.pdf"
 			(at 255.27 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9990,7 +9990,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SymbolsLib:R")
 		(at 171.45 73.66 180)
 		(unit 1)
 		(body_style 1)
@@ -10022,7 +10022,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "FootprintsLib:R_1206_3216Metric"
 			(at 173.228 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -10071,7 +10071,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SS34")
+		(lib_id "SymbolsLib:SS34")
 		(at 210.82 27.94 270)
 		(unit 1)
 		(body_style 1)
@@ -10104,7 +10104,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "FootprintsLib:D_SMA"
 			(at 206.375 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -10115,7 +10115,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Data_Sheets/ss32.pdf"
 			(at 210.82 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -10153,7 +10153,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
+		(lib_id "SymbolsLib:Conn_01x02_Socket")
 		(at 261.62 107.95 0)
 		(unit 1)
 		(body_style 1)
@@ -10186,7 +10186,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_MPD_BH-18650-PC"
+		(property "Footprint" "FootprintsLib:BatteryHolder_MPD_BH-18650-PC"
 			(at 261.62 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -10235,7 +10235,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Battery_Management:DW01A")
+		(lib_id "SymbolsLib:DW01A")
 		(at 257.81 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -10265,7 +10265,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
+		(property "Footprint" "FootprintsLib:SOT-23-6_Handsoldering"
 			(at 257.81 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -10276,7 +10276,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://hmsemi.com/downfile/DW01A.PDF"
+		(property "Datasheet" "${KIPRJMOD}/Data_Sheets/DW01A.PDF"
 			(at 257.81 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -10368,7 +10368,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/home_page_posts/4/4/0/0/Mousebites_Whitepaper_Final.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Data_Sheets/Mousebites_Whitepaper_Final.pdf"
 			(at 124.46 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -10477,7 +10477,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "SymbolsLib:C_Small")
 		(at 171.45 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -10509,7 +10509,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "FootprintsLib:C_1206_3216Metric"
 			(at 171.45 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -10790,7 +10790,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Devices:Push_Button")
+		(lib_id "SymbolsLib:Push_Button")
 		(at 39.37 45.72 90)
 		(unit 1)
 		(body_style 1)
@@ -10820,7 +10820,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "FootprintsLib:SW_PUSH_6mm"
 			(at 42.545 45.847 0)
 			(hide yes)
 			(show_name no)
@@ -10946,7 +10946,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Mechanical:MountingHole_M3_3.2mm_Pad")
+		(lib_id "SymbolsLib:MountingHole_M3_3.2mm_Pad")
 		(at 54.61 182.88 0)
 		(unit 1)
 		(body_style 1)
@@ -10978,7 +10978,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SL_Mechanical:MountingHole_3.2mm_Pad"
+		(property "Footprint" "FootprintsLib:MountingHole_3.2mm_Pad"
 			(at 54.61 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -11066,7 +11066,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/home_page_posts/4/4/0/0/Mousebites_Whitepaper_Final.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Data_Sheets/Mousebites_Whitepaper_Final.pdf"
 			(at 137.16 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -11175,7 +11175,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "SymbolsLib:C_Small")
 		(at 90.17 22.86 0)
 		(unit 1)
 		(body_style 1)
@@ -11207,7 +11207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "FootprintsLib:C_1206_3216Metric"
 			(at 90.17 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -11256,7 +11256,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_Dual_PMOS_G1S2G2D2S1D1")
+		(lib_id "SymbolsLib:Q_Dual_PMOS_G1S2G2D2S1D1")
 		(at 200.66 33.02 180)
 		(unit 1)
 		(body_style 1)
@@ -11286,7 +11286,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
+		(property "Footprint" "FootprintsLib:SOT-23-6_Handsoldering"
 			(at 199.39 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -11347,7 +11347,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x05_Socket")
+		(lib_id "SymbolsLib:Conn_01x05_Socket")
 		(at 262.89 129.54 0)
 		(mirror x)
 		(unit 1)
@@ -11380,7 +11380,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
+		(property "Footprint" "FootprintsLib:PinSocket_1x05_P2.54mm_Vertical"
 			(at 262.89 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -11594,7 +11594,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Mechanical:MountingHole_M3_3.2mm_Pad")
+		(lib_id "SymbolsLib:MountingHole_M3_3.2mm_Pad")
 		(at 33.02 182.88 0)
 		(unit 1)
 		(body_style 1)
@@ -11626,7 +11626,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SL_Mechanical:MountingHole_3.2mm_Pad"
+		(property "Footprint" "FootprintsLib:MountingHole_3.2mm_Pad"
 			(at 33.02 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -11672,7 +11672,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SymbolsLib:R")
 		(at 229.87 69.85 180)
 		(unit 1)
 		(body_style 1)
@@ -11704,7 +11704,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "FootprintsLib:R_1206_3216Metric"
 			(at 231.648 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -11831,7 +11831,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(lib_id "SymbolsLib:USB_C_Receptacle_USB2.0_16P")
 		(at 209.55 134.62 0)
 		(mirror y)
 		(unit 1)
@@ -11864,7 +11864,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "FootprintsLib:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 205.74 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -11875,7 +11875,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "${KIPRJMOD}/Data_Sheets/USB_C_Receptacle_USB2.0_16P.pdf"
 			(at 205.74 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -12077,7 +12077,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/home_page_posts/4/4/0/0/Mousebites_Whitepaper_Final.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Data_Sheets/Mousebites_Whitepaper_Final.pdf"
 			(at 111.76 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -12109,7 +12109,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Mechanical:MountingHole_M3_3.2mm_Pad")
+		(lib_id "SymbolsLib:MountingHole_M3_3.2mm_Pad")
 		(at 43.18 182.88 0)
 		(unit 1)
 		(body_style 1)
@@ -12141,7 +12141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SL_Mechanical:MountingHole_3.2mm_Pad"
+		(property "Footprint" "FootprintsLib:MountingHole_3.2mm_Pad"
 			(at 43.18 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -12420,7 +12420,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "SymbolsLib:LED")
 		(at 176.53 81.28 270)
 		(unit 1)
 		(body_style 1)
@@ -12452,7 +12452,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "FootprintsLib:LED_1206_3216Metric"
 			(at 176.53 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -12512,7 +12512,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "SymbolsLib:LED")
 		(at 171.45 81.28 270)
 		(unit 1)
 		(body_style 1)
@@ -12544,7 +12544,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "FootprintsLib:LED_1206_3216Metric"
 			(at 171.45 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -12604,7 +12604,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SymbolsLib:R")
 		(at 176.53 73.66 180)
 		(unit 1)
 		(body_style 1)
@@ -12636,7 +12636,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "FootprintsLib:R_1206_3216Metric"
 			(at 178.308 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -12685,7 +12685,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SymbolsLib:R")
 		(at 184.15 124.46 270)
 		(mirror x)
 		(unit 1)
@@ -12718,7 +12718,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "FootprintsLib:R_1206_3216Metric"
 			(at 184.15 126.238 90)
 			(hide yes)
 			(show_name no)
@@ -12767,7 +12767,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
+		(lib_id "SymbolsLib:Screw_Terminal_01x02")
 		(at 208.28 106.68 0)
 		(unit 1)
 		(body_style 1)
@@ -12799,7 +12799,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+		(property "Footprint" "FootprintsLib:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 208.28 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -12848,7 +12848,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SymbolsLib:R")
 		(at 238.76 63.5 90)
 		(unit 1)
 		(body_style 1)
@@ -12878,7 +12878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "FootprintsLib:R_1206_3216Metric"
 			(at 238.76 65.278 90)
 			(hide yes)
 			(show_name no)
@@ -12927,7 +12927,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "SymbolsLib:C_Small")
 		(at 242.57 39.37 0)
 		(unit 1)
 		(body_style 1)
@@ -12959,7 +12959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "FootprintsLib:C_1206_3216Metric"
 			(at 242.57 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -13085,7 +13085,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:USBLC6-2SC6")
+		(lib_id "SymbolsLib:USBLC6-2SC6")
 		(at 171.45 135.89 0)
 		(mirror y)
 		(unit 1)
@@ -13118,7 +13118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "FootprintsLib:SOT-23-6"
 			(at 170.18 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -13182,7 +13182,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "SymbolsLib:C_Small")
 		(at 223.52 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -13214,7 +13214,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "FootprintsLib:C_1206_3216Metric"
 			(at 223.52 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -13263,7 +13263,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
+		(lib_id "SymbolsLib:SW_SPDT")
 		(at 180.34 87.63 0)
 		(unit 1)
 		(body_style 1)
@@ -13294,7 +13294,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SL_Devices:Slide_Switch_SPDT_P3mm_10x5x10mm"
+		(property "Footprint" "FootprintsLib:Slide_Switch_SPDT_P3mm_10x5x10mm"
 			(at 180.34 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -13346,7 +13346,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "SymbolsLib:C_Small")
 		(at 269.24 39.37 0)
 		(unit 1)
 		(body_style 1)
@@ -13378,7 +13378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "FootprintsLib:C_1206_3216Metric"
 			(at 269.24 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -13427,7 +13427,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SymbolsLib:R")
 		(at 210.82 73.66 0)
 		(unit 1)
 		(body_style 1)
@@ -13459,7 +13459,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "FootprintsLib:R_1206_3216Metric"
 			(at 209.042 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -13627,7 +13627,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/home_page_posts/4/4/0/0/Mousebites_Whitepaper_Final.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Data_Sheets/Mousebites_Whitepaper_Final.pdf"
 			(at 163.83 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -13856,7 +13856,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/home_page_posts/4/4/0/0/Mousebites_Whitepaper_Final.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Data_Sheets/Mousebites_Whitepaper_Final.pdf"
 			(at 149.86 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -13888,7 +13888,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
+		(lib_id "SymbolsLib:Conn_01x02_Socket")
 		(at 261.62 115.57 0)
 		(unit 1)
 		(body_style 1)
@@ -13921,7 +13921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "FootprintsLib:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 			(at 261.62 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -13970,7 +13970,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SymbolsLib:R")
 		(at 270.51 77.47 0)
 		(unit 1)
 		(body_style 1)
@@ -14002,7 +14002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "FootprintsLib:R_1206_3216Metric"
 			(at 268.732 77.47 90)
 			(hide yes)
 			(show_name no)
@@ -14051,7 +14051,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x05_Socket")
+		(lib_id "SymbolsLib:Conn_01x05_Socket")
 		(at 262.89 147.32 0)
 		(unit 1)
 		(body_style 1)
@@ -14084,7 +14084,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
+		(property "Footprint" "FootprintsLib:PinSocket_1x05_P2.54mm_Vertical"
 			(at 262.89 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -14375,7 +14375,7 @@
 		)
 	)
 	(symbol
-		(lib_id "RF_Module:ESP32-S3-WROOM-1")
+		(lib_id "SymbolsLib:ESP32-S3-WROOM-1")
 		(at 99.06 57.15 0)
 		(unit 1)
 		(body_style 1)
@@ -14408,7 +14408,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-S3-WROOM-1U"
+		(property "Footprint" "FootprintsLib:ESP32-S3-WROOM-1U"
 			(at 99.06 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -14419,7 +14419,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Data_Sheets/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
 			(at 99.06 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -14574,7 +14574,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SymbolsLib:R")
 		(at 229.87 80.01 180)
 		(unit 1)
 		(body_style 1)
@@ -14606,7 +14606,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "FootprintsLib:R_1206_3216Metric"
 			(at 231.648 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -14655,7 +14655,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "SymbolsLib:R")
 		(at 39.37 36.83 180)
 		(unit 1)
 		(body_style 1)
@@ -14687,7 +14687,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "FootprintsLib:R_1206_3216Metric"
 			(at 41.148 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -14736,7 +14736,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "SymbolsLib:C_Small")
 		(at 85.09 22.86 0)
 		(unit 1)
 		(body_style 1)
@@ -14768,7 +14768,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "FootprintsLib:C_1206_3216Metric"
 			(at 85.09 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -14817,7 +14817,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
+		(lib_id "SymbolsLib:SW_SPDT")
 		(at 227.33 26.67 180)
 		(unit 1)
 		(body_style 1)
@@ -14847,7 +14847,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SL_Devices:Slide_Switch_SPDT_P3mm_10x5x10mm"
+		(property "Footprint" "FootprintsLib:Slide_Switch_SPDT_P3mm_10x5x10mm"
 			(at 227.33 26.67 0)
 			(hide yes)
 			(show_name no)
