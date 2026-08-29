@@ -287,7 +287,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Data_Sheets/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1189,7 +1189,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/home_page_posts/4/4/0/0/Mousebites_Whitepaper_Final.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Data_Sheets/Mousebites_Whitepaper_Final.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1998,7 +1998,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.it/datasheet/3/175/1/ds31197.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2197,7 +2197,7 @@
 			(size 1.56 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D3-K)")
+			(net "/Battery_SW")
 			(pinfunction "S_2")
 			(pintype "passive")
 			(uuid "156cc67c-cdf8-4083-87b5-4c3bb923511f")
@@ -2217,7 +2217,7 @@
 			(size 1.56 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Battery_SW")
+			(net "Net-(D3-K)")
 			(pinfunction "D_4")
 			(pintype "passive")
 			(uuid "d9b7726f-75d4-44ad-96cb-0dc713cf5584")
@@ -2492,7 +2492,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/home_page_posts/4/4/0/0/Mousebites_Whitepaper_Final.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Data_Sheets/Mousebites_Whitepaper_Final.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4168,7 +4168,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Data_Sheets/MT3608.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4958,7 +4958,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121619_TOPPOWER-Nanjing-Extension-Microelectronics-TP4056-42-ESOP8_C16581.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Data_Sheets/lcsc_datasheet_2410121619_TOPPOWER-Nanjing-Extension-Microelectronics-TP4056-42-ESOP8_C16581.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6035,7 +6035,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/home_page_posts/4/4/0/0/Mousebites_Whitepaper_Final.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Data_Sheets/Mousebites_Whitepaper_Final.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9191,7 +9191,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Data_Sheets/40_c091_abd_e-75918.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10196,7 +10196,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://hmsemi.com/downfile/DW01A.PDF"
+		(property "Datasheet" "${KIPRJMOD}/Data_Sheets/DW01A.PDF"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11088,7 +11088,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://aosmd.com/sites/default/files/res/data_sheets/AO4842.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Data_Sheets/AO4842.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12891,7 +12891,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/home_page_posts/4/4/0/0/Mousebites_Whitepaper_Final.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Data_Sheets/Mousebites_Whitepaper_Final.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13454,7 +13454,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Data_Sheets/1n4728a.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14512,7 +14512,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Data_Sheets/ss32.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15909,7 +15909,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Data_Sheets/lm1117.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16423,7 +16423,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Data_Sheets/ss32.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17067,7 +17067,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "${KIPRJMOD}/Data_Sheets/USB_C_Receptacle_USB2.0_16P.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17447,7 +17447,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/6c5d898a533a0762c2bc33eb26c283a8/BC546-550-DTE.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Data_Sheets/BC546-550-DTE.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18686,7 +18686,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/home_page_posts/4/4/0/0/Mousebites_Whitepaper_Final.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Data_Sheets/Mousebites_Whitepaper_Final.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19042,7 +19042,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf"
+		(property "Datasheet" "${KIPRJMOD}/Data_Sheets/40_c091_abd_e-75918.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22624,6 +22624,14 @@
 		(uuid "58db8e3a-bb9c-475e-8cba-5326075ceba7")
 	)
 	(segment
+		(start 96.3625 77.45)
+		(end 96.1625 77.65)
+		(width 0.6)
+		(layer "F.Cu")
+		(net "Net-(D3-K)")
+		(uuid "0f392194-832c-4eb3-98fd-52f848c86c68")
+	)
+	(segment
 		(start 112.1825 78.885099)
 		(end 112.259901 78.9625)
 		(width 0.6)
@@ -22646,14 +22654,6 @@
 		(layer "F.Cu")
 		(net "Net-(D3-K)")
 		(uuid "2ca3fe47-7bc0-4cea-9564-b44dccdcfbfc")
-	)
-	(segment
-		(start 97.1125 77.1225)
-		(end 97.3625 77.3725)
-		(width 0.6)
-		(layer "F.Cu")
-		(net "Net-(D3-K)")
-		(uuid "4bcce137-ef3c-4ffe-85c8-16a561ed5ab3")
 	)
 	(segment
 		(start 117.1325 76.2625)
@@ -22728,12 +22728,12 @@
 		(uuid "cee919e6-c049-4d6a-bdc5-dc825f46e7a7")
 	)
 	(segment
-		(start 97.1125 76.1025)
-		(end 97.1125 77.1225)
+		(start 96.1625 77.65)
+		(end 96.1625 78.8025)
 		(width 0.6)
 		(layer "F.Cu")
 		(net "Net-(D3-K)")
-		(uuid "fc4e4b9b-729a-40be-83ed-b687392e6825")
+		(uuid "eb700e45-9d2a-482c-bba1-5218ff698650")
 	)
 	(via
 		(at 111.0725 76.3425)
@@ -22744,7 +22744,7 @@
 		(uuid "5f828b90-d706-4592-9fe7-c306f8afd3eb")
 	)
 	(via
-		(at 97.3625 77.3725)
+		(at 96.3625 77.45)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -22752,12 +22752,12 @@
 		(uuid "9d956f2b-f614-4365-ab3c-77db72a49241")
 	)
 	(segment
-		(start 97.3625 77.3725)
+		(start 96.3625 77.45)
 		(end 110.0425 77.3725)
 		(width 0.6)
 		(layer "In2.Cu")
 		(net "Net-(D3-K)")
-		(uuid "360c070e-3fc8-4011-bcb1-d6415f450923")
+		(uuid "0f5953e6-4366-4d96-8481-57ce78224ed8")
 	)
 	(segment
 		(start 110.0425 77.3725)
@@ -22765,7 +22765,23 @@
 		(width 0.6)
 		(layer "In2.Cu")
 		(net "Net-(D3-K)")
-		(uuid "910e2154-c6d6-4d8b-b2fe-c0ab32c11e45")
+		(uuid "297d9d6f-84b3-4648-a532-59ca14d951bb")
+	)
+	(segment
+		(start 96.1625 76.1025)
+		(end 96.1625 75.2025)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(Q2B-G)")
+		(uuid "1860f3a2-7f2d-4c50-a9c1-47ab93c0a15f")
+	)
+	(segment
+		(start 96.1625 75.2025)
+		(end 93.4125 72.4525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(Q2B-G)")
+		(uuid "26526176-00cf-453e-baf0-62cdcac7b104")
 	)
 	(segment
 		(start 93.4125 72.4525)
@@ -22784,22 +22800,6 @@
 		(uuid "460de066-a7e7-4913-8e3c-eb33671ef5a8")
 	)
 	(segment
-		(start 96.1625 75.1725)
-		(end 96.1625 76.1025)
-		(width 0.6)
-		(layer "F.Cu")
-		(net "Net-(Q2B-G)")
-		(uuid "5165e9b5-e855-4b0f-9265-f17643347138")
-	)
-	(segment
-		(start 93.4425 72.4525)
-		(end 96.1625 75.1725)
-		(width 0.6)
-		(layer "F.Cu")
-		(net "Net-(Q2B-G)")
-		(uuid "7544ce05-d705-43d0-a24f-7c3db2b7fe78")
-	)
-	(segment
 		(start 90.8125 75.0525)
 		(end 89.8425 75.0525)
 		(width 0.2)
@@ -22816,12 +22816,12 @@
 		(uuid "3f7cf2b4-9df6-47df-8c74-514beb556536")
 	)
 	(segment
-		(start 95.2425 78.8025)
-		(end 96.1625 78.8025)
+		(start 95.9375 73.5)
+		(end 97.1125 74.675)
 		(width 0.6)
 		(layer "F.Cu")
 		(net "/Battery_SW")
-		(uuid "52a8eb8b-8063-4059-a7ee-1ef39177d6c9")
+		(uuid "53c73077-52a0-48bb-b705-34648cfba7c2")
 	)
 	(segment
 		(start 90.92 63.0125)
@@ -22832,12 +22832,12 @@
 		(uuid "5c03460e-1303-4808-89bc-b203fe195fc3")
 	)
 	(segment
-		(start 95.2375 78.7975)
-		(end 95.2425 78.8025)
+		(start 97.1125 74.675)
+		(end 97.1125 76.1025)
 		(width 0.6)
 		(layer "F.Cu")
 		(net "/Battery_SW")
-		(uuid "7ae38591-77ff-4f95-87d7-ce0f4ba0d9f8")
+		(uuid "5dfa7adf-005c-480e-84db-d9a3164e8208")
 	)
 	(segment
 		(start 87.895 66.1125)
@@ -22856,14 +22856,6 @@
 		(uuid "db8bc707-5caa-4e33-86fd-e16d5955b3f9")
 	)
 	(segment
-		(start 94.7175 78.7975)
-		(end 95.2375 78.7975)
-		(width 0.6)
-		(layer "F.Cu")
-		(net "/Battery_SW")
-		(uuid "e4043879-ee27-4f3a-bae7-63167c1e56ed")
-	)
-	(segment
 		(start 91.1125 69.3525)
 		(end 93.2375 69.3525)
 		(width 0.6)
@@ -22878,14 +22870,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net "/Battery_SW")
 		(uuid "451a7fb4-4e01-4a29-9d7c-b3f94bbd9824")
-	)
-	(via
-		(at 94.7175 78.7975)
-		(size 0.5)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "/Battery_SW")
-		(uuid "90cd9594-6f14-4e0f-abb0-5af3baeee71b")
 	)
 	(via
 		(at 87.895 66.1125)
@@ -22905,6 +22889,14 @@
 		(net "/Battery_SW")
 		(uuid "93de62cf-9d18-4e31-acf0-8c4127e78fc1")
 	)
+	(via
+		(at 95.9375 73.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "/Battery_SW")
+		(uuid "acd77f9f-86d5-4e23-956a-3d13c8fed92b")
+	)
 	(segment
 		(start 93.4725 79.7325)
 		(end 100.6125 86.8725)
@@ -22922,6 +22914,14 @@
 		(uuid "55ec6b7f-d552-48ba-9f25-ca74d9687bcc")
 	)
 	(segment
+		(start 94.15 71.7125)
+		(end 95.9375 73.5)
+		(width 0.6)
+		(layer "B.Cu")
+		(net "/Battery_SW")
+		(uuid "608e0737-fa13-4ed9-bc57-373dac5cb1cb")
+	)
+	(segment
 		(start 93.4725 77.5525)
 		(end 93.4725 71.7125)
 		(width 0.6)
@@ -22930,12 +22930,12 @@
 		(uuid "6af48331-6e26-4286-ac22-dbde6daebdb1")
 	)
 	(segment
-		(start 94.7175 78.7975)
-		(end 93.4725 77.5525)
+		(start 93.4725 71.7125)
+		(end 94.15 71.7125)
 		(width 0.6)
 		(layer "B.Cu")
 		(net "/Battery_SW")
-		(uuid "73dbbdc1-2210-407b-b82c-59db1fce339c")
+		(uuid "7c760678-1e7d-4fa6-a520-bd94f1e788c2")
 	)
 	(segment
 		(start 93.4725 77.5525)
