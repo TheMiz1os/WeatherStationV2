@@ -11,7 +11,7 @@
 		(company "Maurizio Gasperoni")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
+		(symbol "Connector_local:TestPoint"
 			(pin_numbers
 				(hide yes)
 			)
@@ -5549,7 +5549,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
+		(symbol "power_local:+3V3"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -5688,7 +5688,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
+		(symbol "power_local:+5V"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -5827,7 +5827,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "power_local:GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -5942,7 +5942,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
+		(symbol "power_local:PWR_FLAG"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -8744,7 +8744,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power_local:GND")
 		(at 203.2 109.22 0)
 		(unit 1)
 		(body_style 1)
@@ -9085,7 +9085,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "power_local:+5V")
 		(at 242.57 133.35 0)
 		(unit 1)
 		(body_style 1)
@@ -9323,7 +9323,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power_local:GND")
 		(at 203.2 80.01 0)
 		(unit 1)
 		(body_style 1)
@@ -9400,7 +9400,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "power_local:+3V3")
 		(at 78.74 20.32 0)
 		(unit 1)
 		(body_style 1)
@@ -9478,7 +9478,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power_local:GND")
 		(at 247.65 128.27 0)
 		(unit 1)
 		(body_style 1)
@@ -9717,7 +9717,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power_local:GND")
 		(at 41.91 52.07 0)
 		(unit 1)
 		(body_style 1)
@@ -9876,7 +9876,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power_local:GND")
 		(at 176.53 125.73 0)
 		(mirror x)
 		(unit 1)
@@ -10549,7 +10549,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power_local:GND")
 		(at 186.69 90.17 0)
 		(unit 1)
 		(body_style 1)
@@ -10707,7 +10707,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power_local:GND")
 		(at 99.06 85.09 0)
 		(unit 1)
 		(body_style 1)
@@ -10784,7 +10784,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "power_local:PWR_FLAG")
 		(at 245.11 31.75 0)
 		(unit 1)
 		(body_style 1)
@@ -10862,7 +10862,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "power_local:+3V3")
 		(at 247.65 123.19 0)
 		(unit 1)
 		(body_style 1)
@@ -11018,7 +11018,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power_local:GND")
 		(at 171.45 58.42 0)
 		(unit 1)
 		(body_style 1)
@@ -11247,7 +11247,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power_local:GND")
 		(at 222.25 29.21 0)
 		(unit 1)
 		(body_style 1)
@@ -11587,7 +11587,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "power_local:PWR_FLAG")
 		(at 203.2 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -11665,7 +11665,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "power_local:+3V3")
 		(at 273.05 35.56 0)
 		(unit 1)
 		(body_style 1)
@@ -11902,7 +11902,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power_local:GND")
 		(at 162.56 119.38 0)
 		(mirror y)
 		(unit 1)
@@ -12107,7 +12107,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power_local:GND")
 		(at 48.26 187.96 0)
 		(unit 1)
 		(body_style 1)
@@ -12336,7 +12336,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power_local:GND")
 		(at 223.52 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -12413,7 +12413,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "power_local:PWR_FLAG")
 		(at 190.5 48.26 0)
 		(unit 1)
 		(body_style 1)
@@ -12491,7 +12491,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power_local:GND")
 		(at 171.45 143.51 0)
 		(mirror y)
 		(unit 1)
@@ -12997,7 +12997,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "Connector_local:TestPoint")
 		(at 97.79 109.22 0)
 		(unit 1)
 		(body_style 1)
@@ -13236,7 +13236,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power_local:GND")
 		(at 229.87 86.36 0)
 		(unit 1)
 		(body_style 1)
@@ -13736,7 +13736,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power_local:GND")
 		(at 208.28 40.64 0)
 		(unit 1)
 		(body_style 1)
@@ -13887,7 +13887,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "power_local:PWR_FLAG")
 		(at 245.11 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -13964,7 +13964,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power_local:GND")
 		(at 213.36 157.48 0)
 		(mirror y)
 		(unit 1)
@@ -14370,7 +14370,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power_local:GND")
 		(at 255.27 44.45 0)
 		(unit 1)
 		(body_style 1)
@@ -14448,7 +14448,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "power_local:+3V3")
 		(at 247.65 152.4 0)
 		(unit 1)
 		(body_style 1)
@@ -14525,7 +14525,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "power_local:+3V3")
 		(at 41.91 33.02 0)
 		(unit 1)
 		(body_style 1)
@@ -15127,7 +15127,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power_local:GND")
 		(at 87.63 25.4 0)
 		(unit 1)
 		(body_style 1)
@@ -15204,7 +15204,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power_local:GND")
 		(at 257.81 142.24 270)
 		(unit 1)
 		(body_style 1)

@@ -1,3 +1,6 @@
 (sym_lib_table
   (lib (name "SymbolsLib") (type "KiCad") (uri "${KIPRJMOD}/MySym/SymbolsLib.kicad_sym") (options "") (descr "Local project symbol library"))
+	(lib (name "Connector_local")(type "KiCad")(uri "${KIPRJMOD}/libs/Connector_local.kicad_sym")(options "")(descr "Localized"))
+	(lib (name "Simulation_SPICE_local")(type "KiCad")(uri "${KIPRJMOD}/libs/Simulation_SPICE_local.kicad_sym")(options "")(descr "Localized"))
+	(lib (name "power_local")(type "KiCad")(uri "${KIPRJMOD}/libs/power_local.kicad_sym")(options "")(descr "Localized"))
 )

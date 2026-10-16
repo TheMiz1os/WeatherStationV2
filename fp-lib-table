@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "FootprintsLib") (type "KiCad") (uri "${KIPRJMOD}/FootprintsLib.pretty") (options "") (descr "Local project library"))
+	(lib (name "TestPoint_local")(type "KiCad")(uri "${KIPRJMOD}/libs/TestPoint_local.pretty")(options "")(descr "Localized"))
 )

@@ -1,0 +1,78 @@
+{
+  "backed_up": [
+    {
+      "path": "sensors_interface.kicad_sch",
+      "backup": "backup/sensors_interface.kicad_sch"
+    },
+    {
+      "path": "Weather Station V2.kicad_sch",
+      "backup": "backup/Weather Station V2.kicad_sch"
+    },
+    {
+      "path": "sym-lib-table",
+      "backup": "backup/sym-lib-table"
+    },
+    {
+      "path": "Weather Station V2.kicad_pcb",
+      "backup": "backup/Weather Station V2.kicad_pcb"
+    },
+    {
+      "path": "fp-lib-table",
+      "backup": "backup/fp-lib-table"
+    }
+  ],
+  "created_files": [
+    "libs/power_local.kicad_sym",
+    "libs/Simulation_SPICE_local.kicad_sym",
+    "libs/Connector_local.kicad_sym",
+    "libs/TestPoint_local.pretty/TestPoint_THTPad_D2.0mm_Drill1.0mm.kicad_mod",
+    "packages3D/Capacitor_SMD.3dshapes/C_1206_3216Metric.step",
+    "packages3D/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step",
+    "packages3D/Resistor_SMD.3dshapes/R_1206_3216Metric.step",
+    "packages3D/Capacitor_THT.3dshapes/CP_Radial_D4.0mm_P1.50mm.step",
+    "packages3D/Button_Switch_THT.3dshapes/SW_PUSH_6mm.step",
+    "packages3D/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step",
+    "packages3D/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x05_P2.54mm_Vertical.step",
+    "packages3D/LED_SMD.3dshapes/LED_1206_3216Metric.step",
+    "packages3D/Diode_THT.3dshapes/D_DO-41_SOD81_P10.16mm_Horizontal.step",
+    "packages3D/Diode_SMD.3dshapes/D_SMA.step",
+    "packages3D/Connector_JST.3dshapes/JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical.step",
+    "packages3D/Package_TO_SOT_SMD.3dshapes/SOT-223.step",
+    "packages3D/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step",
+    "packages3D/Inductor_SMD.3dshapes/L_APV_APH0420.step"
+  ],
+  "created_dirs": [
+    "libs",
+    "libs/TestPoint_local.pretty",
+    "packages3D/Capacitor_SMD.3dshapes",
+    "packages3D/Package_TO_SOT_SMD.3dshapes",
+    "packages3D/Resistor_SMD.3dshapes",
+    "packages3D/Capacitor_THT.3dshapes",
+    "packages3D/Button_Switch_THT.3dshapes",
+    "packages3D/Package_SO.3dshapes",
+    "packages3D/Connector_PinSocket_2.54mm.3dshapes",
+    "packages3D/LED_SMD.3dshapes",
+    "packages3D/Diode_THT.3dshapes",
+    "packages3D/Diode_SMD.3dshapes",
+    "packages3D/Connector_JST.3dshapes",
+    "packages3D/Connector_USB.3dshapes",
+    "packages3D/Inductor_SMD.3dshapes"
+  ],
+  "summary": {
+    "symbols": {
+      "libraries": 3,
+      "files_copied": 3,
+      "remapped": 54
+    },
+    "footprints": {
+      "libraries": 1,
+      "files_copied": 1,
+      "remapped": 1
+    },
+    "models": {
+      "files_copied": 14,
+      "remapped": 46,
+      "unique_sources": 14
+    }
+  }
+}
